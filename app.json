@@ -1,0 +1,26 @@
+{
+  "name": "SENUL-MD",
+  "description": "hey this is senul-md whatsapp bot",
+  "logo": "https://i.imgur.com/qtFG9Y6.jpeg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Add SENUL-MD Session ID",
+      "required": true
+    },  
+
+        "MONGODB": {
+      "description": "Put your Mongodb url",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
