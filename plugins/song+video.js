@@ -27,7 +27,7 @@ let desc= `
 | 🔮 *views* : *${deta.views}*
 |__________________________
 
-POWERED by *©ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇɴᴜʟ-ᴍᴅ*
+*©ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇɴᴜʟ-ᴍᴅ*
 
 `
 
@@ -39,8 +39,8 @@ let down = await fg.yta(url)
 let downloadUrl = down.dl_url
 
 //send audio message 
-await conn.sendMessage(from,{audio:{url:downloadUrl},mimetype:"audio/mpeg",caption :"*©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴɪʀᴏ-ᴍᴅ*"},{quoted:mek})
-await conn.sendMessage(from,{document:{url:downloadUrl},mimetype:"audio/mpeg",fileName:deta.title + ".mp3" ,caption :"*©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴɪʀᴏ-ᴍᴅ*"},{quoted:mek})
+await conn.sendMessage(from,{audio:{url:downloadUrl},mimetype:"audio/mpeg",caption :"*©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴇɴᴜʟ-ᴍᴅ*"},{quoted:mek})
+await conn.sendMessage(from,{document:{url:downloadUrl},mimetype:"audio/mpeg",fileName:deta.title + ".mp3" ,caption :"*©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴇɴᴜʟ-ᴍᴅ*"},{quoted:mek})
 
   
 
@@ -77,7 +77,7 @@ let desc= `
 | 🔮 *views* : *${deta.views}*
 |__________________________
 
-POWERED by *©ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇɴᴜʟ-ᴍᴅ*
+*©ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇɴᴜʟ-ᴍᴅ*
 
 `
 
