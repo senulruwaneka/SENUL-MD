@@ -66,12 +66,12 @@ if (path.extname(plugin).toLowerCase() == ".js") {
 require("./plugins/" + plugin);
 }
 });
-console.log('*Plugins installed successful* ✅')
-console.log('*Bot connected to whatsapp* ✅')
+console.log('Plugins installed successful ✅')
+console.log('Bot connected to whatsapp ✅')
 
 let up = `*SENUL-MD CONNETED SUCCESSFULLY* ✅\n\nPREFIX:${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/c8858afdce80eeb01b47e.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://imgtr.ee/images/2024/09/11/3e6c73da5849ff8b9e48781ab8acbfe4.jpeg` }, caption: up })
 
 }
 })
