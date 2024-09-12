@@ -18,13 +18,13 @@ const deta = search.videos[0];
 const url = deta.url 
 
 let desc= `
- *✦🔮 𝗦𝗘𝗡𝗨𝗟-𝗠𝗗 ● AUDIO-DOWNLOADER🎶 ✿*
+ *🎶𝗦𝗘𝗡𝗨𝗟-𝗠𝗗   𝗔𝗨𝗗𝗜𝗢-𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥🎶*
 |__________________________
-| 🔮 *title* : *${deta.title}*
-| 🔮 *description* : *${deta.description}*
-| 🔮 *time* : *${deta.timestamp}*
-| 🔮 *ago* : *${deta.ago}*
-| 🔮 *views* : *${deta.views}*
+| ℹ️ *title* : *${deta.title}*
+| 📋 *description* : *${deta.description}*
+| 🕘 *time* : *${deta.timestamp}*
+| 📌 *ago* : *${deta.ago}*
+| 📉 *views* : *${deta.views}*
 |__________________________
 
 *©ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇɴᴜʟ-ᴍᴅ*
@@ -68,13 +68,13 @@ const deta = search.videos[0];
 const url = deta.url 
 
 let desc= `
-*✦ 🔮𝗦𝗘𝗡𝗨𝗟-𝗠𝗗 ● VIDEO-DOWNLOADER📽️ ✿*
+*📽️𝗦𝗘𝗡𝗨𝗟-𝗠𝗗   𝗩𝗜𝗗𝗘𝗢-𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥📽️*
 |__________________________
-| 🔮 *title* : *${deta.title}*
-| 🔮 *description* : *${deta.description}*
-| 🔮 *time* : *${deta.timestamp}*
-| 🔮 *ago* : *${deta.ago}*
-| 🔮 *views* : *${deta.views}*
+| ℹ️ *title* : *${deta.title}*
+| 📋 *description* : *${deta.description}*
+| 🕘 *time* : *${deta.timestamp}*
+| 📌 *ago* : *${deta.ago}*
+| 📉 *views* : *${deta.views}*
 |__________________________
 
 *©ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇɴᴜʟ-ᴍᴅ*
