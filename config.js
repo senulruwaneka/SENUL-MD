@@ -11,6 +11,5 @@ ALIVE_MSG: process.env.ALIVE_MSG || "👋 Hello *${pushname}*\n*I AM SENUL-MD I 
 SUDO_NB: process.env.SUDO_NB || "94762296665",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 MODE: process.env.MODE || "public"
-AUTO_VOICE:"true"
 };
 
