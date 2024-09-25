@@ -1,5 +1,8 @@
 const {cmd , commands} = require('../command')
-
+const os = require("os")
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, Func, fetchJson} = require('../lib/functions')
+const axios = require('axios')
+const config = require('../config')
 cmd({
     pattern: "menu",
     desc: "menu the bot",
