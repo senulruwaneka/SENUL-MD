@@ -19,7 +19,7 @@ let dec = `*👋 Hello ${pushname}*
 👨‍💻 *Welcome to SENUL-MD* 👨‍💻 
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ 」
 │◈ яυηтιмє * ${runtime(process.uptime())}
-│◈ σωηєя ηαмє * 𝐍𝐈𝐑𝐎
+│◈ σωηєя ηαмє * 𝗡𝗜𝗥𝗢
 │◈ σωηєя ηυмвєя * ${config.BOT_NUMBER}
 ╭──────────●●►
  📥 *𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐞𝐧𝐮*
