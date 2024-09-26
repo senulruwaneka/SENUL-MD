@@ -18,9 +18,9 @@ let dec = `*👋 Hello ${pushname}*
 
 👨‍💻 *Welcome to SENUL-MD* 👨‍💻 
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ 」
-│◈ яυηтιмє * ${runtime(process.uptime())}
-│◈ σωηєя ηαмє * 𝗡𝗜𝗥𝗢
-│◈ σωηєя ηυмвєя * ${config.BOT_NUMBER}
+│◈ яυηтιмє* ${runtime(process.uptime())}
+│◈ σωηєя ηαмє* 𝗡𝗜𝗥𝗢
+│◈ σωηєя ηυмвєя* 94762296665
 ╭──────────●●►
  📥 *𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐞𝐧𝐮*
   ───────
