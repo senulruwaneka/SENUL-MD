@@ -13,7 +13,26 @@ cmd({
 
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let dec = `*👋 Hello ${pushname}*
+const config = await readEnv();
+let menu = {
+main: '',
+download: '',
+group: '',
+owner: '',
+convert: '',
+search: '',
+fun: '',
+voice: '',
+other: ''
+};
+
+for (let i = 0; i < commands.length; i++) {
+if (commands[i].pattern && !commands[i].dontAddCommandList) {
+menu[commands[i].category] += `${config.PREFIX}${commands[i].pattern}\n`;
+ }
+}
+
+let madeMenu =`*👋 Hello ${pushname}*
  - 𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨 🤍
 
 👨‍💻 *Welcome to SENUL-MD* 👨‍💻 
@@ -126,7 +145,7 @@ let dec = `*👋 Hello ${pushname}*
 ╰───────────●●►
 
 *©ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇɴᴜʟ-ᴍᴅ*👨‍💻`
-await conn.sendMessage(from,{image:{url: `https://i.ibb.co/ggrmtk2/IMG-20240918-WA0034.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quoted:mek});
 
 }catch(e){
 console.log(e)
