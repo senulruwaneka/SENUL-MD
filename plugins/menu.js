@@ -1,5 +1,5 @@
+const {readEnv} = require('../lib/database')
 const {cmd , commands} = require('../command')
-const config = require('../config')
 const os = require("os")
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, Func, fetchJson} = require('../lib/functions')
 const axios = require('axios')
